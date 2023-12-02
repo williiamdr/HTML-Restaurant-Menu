@@ -118,13 +118,6 @@ th {
     padding: 5px;
 }
 
-#logo-container {
-  width: 20%;
-  margin-top: 20px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
 .content {
     text-align: left;
     
@@ -159,6 +152,7 @@ th {
     background-size: cover;
     padding: 60px 15px 100px;
     background-attachment: fixed;
+    
   }
   
   .heroContent {
@@ -166,6 +160,7 @@ th {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
   .logo{
     width: 50%;
@@ -207,4 +202,6 @@ th {
     margin: 0;
     color: white;
   }
-  
+  .location {
+    text-align: Left;
+  }
