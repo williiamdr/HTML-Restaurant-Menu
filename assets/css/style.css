@@ -1,4 +1,43 @@
-html,
+.navbar {
+    background-color: #333;
+    padding: 12px 6px;
+  }
+  
+  .navbar .navLinks {
+    max-width: 500px !important;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .navbar .navLinks li a {
+    padding: 4px 2px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+   
+  }
+  main{
+    text-align: center
+  }
+  .table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+  }
+  .logo-container {
+     height: 200px;
+    width: 200px;
+    margin-top: 40px
+    
+      
+  }
+  html,
 body {
     margin: 0;
     padding: 0;
@@ -84,3 +123,38 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+
+#logo-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content {
+    text-align: left;
+    
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+width: 150px;
+height: 100px;
+margin-left: 300px
+  }
+  
+  .foot{
+    text-align: center;
+  }
+  .information {
+    text-align:end
+   display: flex;
+  }
+  .ShrimpPhoto {
+    width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: left;
+  }
